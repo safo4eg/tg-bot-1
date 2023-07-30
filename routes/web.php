@@ -1,7 +1,5 @@
 <?php
 
-use App\Helpers\Telegram;
-use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('/', function (Telegram $telegram) {
+//Route::get('/', function (Bot $telegram) {
 //    $telegram->sendMessage(1454972838, 'Hello Nikita (Django) Vasukov');
 //    $http = $telegram->sendDocument(1454972838, 'img.png');
 //    dd($http->body());

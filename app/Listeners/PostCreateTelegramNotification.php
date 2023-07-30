@@ -3,12 +3,12 @@
 namespace App\Listeners;
 
 use App\Events\PostCreate;
-use App\Helpers\Telegram;
+use App\Helpers\Telegram\Bot;
 
 class PostCreateTelegramNotification
 {
     public $telegram;
-    public function __construct(Telegram $telegram)
+    public function __construct(Bot $telegram)
     {
         $this->telegram = $telegram;
     }
